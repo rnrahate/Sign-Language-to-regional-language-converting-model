@@ -58,7 +58,7 @@ def on_language_selected(*args):
     selected_language = lang_var.get()
     print("Selected Language:", selected_language) 
 
-languages = ["Hindi", "Gujarati", "Marathi", "Bengali", "Malayalam", "Telegu", "Tamil", "Kannada"] 
+languages = ["Hindi", "Marathi", "Gujarati", "Bengali", "Malayalam", "Telegu", "Tamil", "Kannada"] 
 
 lang_var = StringVar(root)
 lang_var.set("Select") 
